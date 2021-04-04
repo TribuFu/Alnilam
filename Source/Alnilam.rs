@@ -12,7 +12,7 @@ pub async fn Main() {
     dotenv().ok();
 
     // Configure the client with your Discord bot token in the environment.
-    let token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
+    let _token = env::var("DISCORD_TOKEN").expect("Expected a token in the environment");
 
-    let prefix = env::var("PREFIX").expect("Expected a prefix in the environment");
+    let _prefix = env::var("PREFIX").expect("Expected a prefix in the environment");
 }
