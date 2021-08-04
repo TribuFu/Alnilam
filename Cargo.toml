@@ -10,7 +10,6 @@ edition = "2018"
 publish = true
 
 exclude = [
-    ".cargo/",
     ".github/",
     ".vscode/",
     "Documentation/",
