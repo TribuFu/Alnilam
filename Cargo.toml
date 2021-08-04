@@ -1,6 +1,6 @@
 [package]
 name = "alnilam"
-version = "0.0.1"
+version = "0.0.2"
 description = "Alnilam Engine"
 repository = "https://github.com/TribuFu/Alnilam"
 authors = ["TribuFu <contact@tribufu.com>"]
