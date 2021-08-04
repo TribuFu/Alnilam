@@ -9,7 +9,3 @@ Cargo.lock
 # Mac OSX
 
 .DS_Store
-
-# Environment
-
-.env

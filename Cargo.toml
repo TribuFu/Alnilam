@@ -1,10 +1,10 @@
 [package]
 name = "alnilam"
 version = "0.0.1"
-description = "Discord Bot"
+description = "Alnilam Engine"
 repository = "https://github.com/TribuFu/Alnilam"
 authors = ["TribuFu <contact@tribufu.com>"]
-license = "Apache-2.0"
+license = "MIT"
 readme = "README.md"
 edition = "2018"
 publish = true
@@ -24,13 +24,6 @@ exclude = [
 [lib]
 name="Alnilam"
 crate-type = ["rlib"]
-path = "Source/Alnilam.rs"
-
-[[bin]]
-name="Alnilam"
-path = "Source/Main.rs"
-doc = false
+path = "Source/Engine.rs"
 
 [dependencies]
-dotenv = "0.15.0"
-tokio = { version = "1.4.0", features = ["macros", "rt-multi-thread"] }
