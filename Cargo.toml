@@ -6,7 +6,7 @@ repository = "https://github.com/TribuFu/Alnilam"
 authors = ["TribuFu <contact@tribufu.com>"]
 license = "MIT"
 readme = "README.md"
-edition = "2018"
+edition = "2021"
 publish = true
 
 exclude = [
@@ -21,8 +21,26 @@ exclude = [
 ]
 
 [lib]
-name="Alnilam"
+name = "Alnilam"
 crate-type = ["rlib"]
-path = "Source/Engine.rs"
+path = "Source/lib.rs"
+
+[[example]]
+name = "Cubes"
+path = "Examples/Cubes.rs"
+
+[[example]]
+name = "Triangle"
+path = "Examples/Triangle.rs"
 
 [dependencies]
+anyhow = "1.0"
+bytemuck = { version = "1.4", features = [ "derive" ] }
+cgmath = "0.18"
+env_logger = "0.9"
+image = "0.23"
+log = "0.4"
+pollster = "0.2"
+tobj = "3.0"
+wgpu = "0.11"
+winit = "0.25"
