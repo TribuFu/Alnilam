@@ -15,7 +15,6 @@ exclude = [
     "Documentation/",
     ".editorconfig",
     ".gitattributes",
-    "*.code-workspace",
     "Bootstrap.ps1",
     "Bootstrap.sh",
 ]
