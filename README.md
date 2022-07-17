@@ -1,3 +1,3 @@
 # Alnilam
 
-Work in progress game engine.
+Work in Progress Game Engine.
