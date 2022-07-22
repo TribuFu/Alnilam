@@ -1,2 +1,5 @@
 [build]
 target-dir = "Binaries"
+
+[target.'cfg(target_os = "windows")']
+rustflags = ["-C", "target-feature=+crt-static"]
